@@ -2,9 +2,9 @@ import { site } from '../data/site.js'
 import { useReveal } from '../hooks/useReveal.js'
 
 const heroStats = [
-  { value: '500M+', label: 'Business Peak Revenue' },
-  { value: '3–5', label: 'Business Team' },
-  { value: '6', label: 'Projects / Month' },
+  { value: '500M+', label: 'Doanh thu đỉnh' },
+  { value: '3–5', label: 'Đội ngũ kinh doanh' },
+  { value: '6', label: 'Dự án / tháng' },
 ]
 
 export default function Hero() {
@@ -21,16 +21,16 @@ export default function Hero() {
           <h1 className="hero__name">{site.name}</h1>
           <p className="hero__role">{site.role}</p>
           <p className="hero__summary">
-            Sales &amp; business professional with hands-on experience in building materials and real
-            estate — plus practical AI content, automation and web skills. Looking for part-time /
-            evening opportunities where I can create real results.
+            Chuyên gia Sales &amp; kinh doanh với kinh nghiệm thực tế trong lĩnh vực vật liệu xây
+            dựng và bất động sản — cùng kỹ năng thực tiễn về AI content, automation và web. Tìm kiếm
+            cơ hội part-time / buổi tối để tạo ra kết quả thực sự.
           </p>
           <div className="hero__actions">
             <a href="#portfolio" className="btn btn--primary">
-              View My Work
+              Xem dự án của tôi
             </a>
             <a href={site.cvFile} className="btn btn--ghost" download>
-              Download CV
+              Tải CV
             </a>
           </div>
           <div className="hero__stats">
@@ -45,7 +45,7 @@ export default function Hero() {
 
         <div className={`hero__visual ${visible ? 'is-visible' : ''}`}>
           <div className="hero__photo-frame">
-            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Sales, Marketing & AI Content professional" className="hero__photo" />
+            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Chuyên gia Sales, Marketing & AI Content" className="hero__photo" />
           </div>
         </div>
       </div>

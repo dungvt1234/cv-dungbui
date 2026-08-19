@@ -8,49 +8,49 @@ export default function About() {
       <div className="container">
         <div className={`about__grid ${visible ? 'is-visible' : ''}`} ref={ref}>
           <div className="about__text">
-            <p className="overline">About Me</p>
+            <p className="overline">Giới thiệu</p>
             <h2 className="section-title">
-              Business results first, <span className="accent">AI as the multiplier</span>
+              Kết quả kinh doanh là trên hết, <span className="accent">AI là đòn bẩy</span>
             </h2>
             <p>
-              I have hands-on experience in <strong>real estate sales</strong> and{' '}
-              <strong>building materials distribution</strong>, combined with investing in a business,
-              working with people and supervising construction projects.
+              Tôi có kinh nghiệm thực tế trong <strong>kinh doanh bất động sản</strong> và{' '}
+              <strong>phân phối vật liệu xây dựng</strong>, kết hợp với việc đầu tư kinh doanh,
+              làm việc cùng mọi người và giám sát các công trình xây dựng.
             </p>
             <p>
-              Since 2024 I have invested in a building materials &amp; paint distribution
-              business — working with a 3–5 person team, with the business reaching a peak of about{' '}
-              <strong>500 million VND/month</strong> in revenue while I oversaw around{' '}
-              <strong>6 construction projects per month</strong>.
+              Từ năm 2024, tôi đầu tư vào doanh nghiệp phân phối vật liệu xây dựng &amp; sơn — làm
+              việc cùng đội ngũ 3–5 người, với doanh thu đạt đỉnh khoảng{' '}
+              <strong>500 triệu VND/tháng</strong> và giám sát khoảng{' '}
+              <strong>6 công trình mỗi tháng</strong>.
             </p>
             <p>
-              Beyond sales, I use <strong>AI to create short ads, product images, banners and
-              marketing campaigns</strong> — and I know my way around web development, AI automation,
-              Word and Excel.
+              Ngoài sales, tôi dùng <strong>AI để tạo video quảng cáo ngắn, ảnh sản phẩm, banner
+              và chiến dịch marketing</strong> — đồng thời am hiểu phát triển web, tự động hóa bằng
+              AI, Word và Excel.
             </p>
             <p>
-              With a degree in <strong>Business Administration (Accounting)</strong>, I have a
-              foundation in <strong>finance and economics</strong> — cost tracking, pricing and
-              financial records — which helps me understand the numbers behind everyday business.
+              Với tấm bằng <strong>Quản trị kinh doanh (Kế toán)</strong>, tôi có nền tảng về{' '}
+              <strong>tài chính và kinh tế</strong> — theo dõi chi phí, định giá và sổ sách tài
+              chính — giúp tôi hiểu rõ con số đằng sau mỗi thương vụ kinh doanh hằng ngày.
             </p>
           </div>
 
           <div className="about__facts">
             <div className="fact-card">
-              <span className="fact-card__label">Currently</span>
-              <span className="fact-card__value">Available for part-time / evening work</span>
+              <span className="fact-card__label">Hiện tại</span>
+              <span className="fact-card__value">Sẵn sàng nhận việc part-time / buổi tối</span>
             </div>
             <div className="fact-card">
-              <span className="fact-card__label">Focus</span>
+              <span className="fact-card__label">Trọng tâm</span>
               <span className="fact-card__value">Sales • Marketing • AI Content</span>
             </div>
             <div className="fact-card">
-              <span className="fact-card__label">Core strength</span>
-              <span className="fact-card__value">Closing deals + producing content with AI</span>
+              <span className="fact-card__label">Thế mạnh cốt lõi</span>
+              <span className="fact-card__value">Chốt deal + sản xuất nội dung bằng AI</span>
             </div>
             <div className="fact-card">
-              <span className="fact-card__label">Location</span>
-              <span className="fact-card__value">Vietnam — remote friendly</span>
+              <span className="fact-card__label">Địa điểm</span>
+              <span className="fact-card__value">Việt Nam — làm việc từ xa</span>
             </div>
           </div>
         </div>

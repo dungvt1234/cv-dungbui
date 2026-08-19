@@ -8,9 +8,9 @@ export default function Experience() {
     <section id="experience" className="section experience">
       <div className="container">
         <div className={`section-head ${visible ? 'is-visible' : ''}`} ref={ref}>
-          <p className="overline">Experience</p>
+          <p className="overline">Kinh nghiệm</p>
           <h2 className="section-title">
-            A track record of <span className="accent">selling, coordinating and delivering</span>
+            Thành tích <span className="accent">bán hàng, điều phối và tạo kết quả</span>
           </h2>
         </div>
 

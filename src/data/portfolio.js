@@ -1,56 +1,56 @@
 // ===== Portfolio projects data =====
 // category: 'AI VIDEO' | 'AI IMAGE' | 'BANNER' | 'MARKETING' | 'WEB'
 
-export const portfolioCategories = ['ALL', 'AI VIDEO', 'AI IMAGE', 'BANNER', 'MARKETING', 'WEB']
+export const portfolioCategories = ['TẤT CẢ', 'AI VIDEO', 'AI IMAGE', 'BANNER', 'MARKETING', 'WEB']
 
 export const projects = [
   {
     id: 'p1',
-    title: 'AI Product Advertisement',
+    title: 'Video quảng cáo sản phẩm bằng AI',
     category: 'AI VIDEO',
     image: '/assets/projects/p1-ai-video.jpg',
     description:
-      'Short-form AI-generated product advertisement video. Script, voiceover and visuals produced with AI tools to promote a product quickly and cost-effectively.',
-    tools: ['AI Video Generator', 'AI Voiceover', 'AI Script'],
+      'Video quảng cáo sản phẩm dạng ngắn được tạo bằng AI. Kịch bản, lồng tiếng và hình ảnh đều sản xuất bằng công cụ AI để quảng bá sản phẩm nhanh chóng, tiết kiệm chi phí.',
+    tools: ['Công cụ tạo Video AI', 'Lồng tiếng AI', 'Kịch bản AI'],
     link: '#',
   },
   {
     id: 'p2',
-    title: 'AI Product Creative',
+    title: 'Creative sản phẩm bằng AI',
     category: 'AI IMAGE',
     image: '/assets/projects/p2-ai-image.jpg',
     description:
-      'Product images created and edited with AI — studio-quality creative for e-commerce, social media and ads without a physical photoshoot.',
-    tools: ['AI Image Generator', 'AI Editing'],
+      'Ảnh sản phẩm được tạo và chỉnh sửa bằng AI — creative chất lượng studio cho thương mại điện tử, mạng xã hội và quảng cáo mà không cần buổi chụp hình thực tế.',
+    tools: ['Công cụ tạo Ảnh AI', 'Chỉnh sửa bằng AI'],
     link: '#',
   },
   {
     id: 'p3',
-    title: 'Social Media Banner',
+    title: 'Banner mạng xã hội',
     category: 'BANNER',
     image: '/assets/projects/p3-banner.jpg',
     description:
-      'Advertising banner designed for a brand — clean layout, strong visual hierarchy, ready for social media campaigns.',
-    tools: ['AI Design', 'Banner Layout'],
+      'Banner quảng cáo thiết kế cho thương hiệu — bố cục sạch sẽ, hệ thống thị giác mạnh, sẵn sàng cho các chiến dịch mạng xã hội.',
+    tools: ['Thiết kế bằng AI', 'Bố cục Banner'],
     link: '#',
   },
   {
     id: 'p4',
-    title: 'Marketing Campaign',
+    title: 'Chiến dịch Marketing',
     category: 'MARKETING',
     image: '/assets/projects/p4-marketing.jpg',
     description:
-      'Marketing campaign idea and plan built with AI — content direction, audience targeting and creative concepts for a product launch.',
-    tools: ['AI Marketing', 'Content Planning'],
+      'Ý tưởng và kế hoạch chiến dịch Marketing được xây dựng bằng AI — định hướng nội dung, nhắm đúng đối tượng và concept sáng tạo cho chiến dịch ra mắt sản phẩm.',
+    tools: ['AI Marketing', 'Lập kế hoạch nội dung'],
     link: '#',
   },
   {
     id: 'p5',
-    title: 'Personal Web Development',
+    title: 'Phát triển Web cá nhân',
     category: 'WEB',
     image: '/assets/projects/p5-web.jpg',
     description:
-      'Website / landing page built for a brand — responsive, fast, modern design. Live example: Fairy Luxury e-commerce landing page.',
+      'Website / landing page xây dựng cho thương hiệu — responsive, nhanh, thiết kế hiện đại. Ví dụ trực tiếp: landing page thương mại điện tử Fairy Luxury.',
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://fairy-luxury-website.vercel.app',
   },

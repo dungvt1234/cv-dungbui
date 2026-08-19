@@ -15,9 +15,9 @@ export default function Skills() {
     <section id="skills" className="section skills">
       <div className="container">
         <div className={`section-head ${visible ? 'is-visible' : ''}`} ref={ref}>
-          <p className="overline">Skills</p>
+          <p className="overline">Kỹ năng</p>
           <h2 className="section-title">
-            A practical <span className="accent">skill set</span> built from real work
+            Bộ kỹ năng <span className="accent">thực tế</span> từ công việc thật
           </h2>
         </div>
 

@@ -8,28 +8,29 @@ export default function Contact() {
     <section id="contact" className="section contact">
       <div className="container">
         <div className={`contact__box ${visible ? 'is-visible' : ''}`} ref={ref}>
-          <p className="overline">Contact</p>
-          <h2 className="section-title">Let's work together</h2>
+          <p className="overline">Liên hệ</p>
+          <h2 className="section-title">Hãy cùng làm việc</h2>
           <p className="contact__intro">
-            Available for part-time / evening roles in Sales, Customer Service, Marketing and AI
-            Content Creation. Quick to adapt, easy to work with, focused on results.
+            Sẵn sàng nhận các vị trí part-time / buổi tối trong lĩnh vực Sales, Chăm sóc khách
+            hàng, Marketing và Sáng tạo nội dung bằng AI. Thích nghi nhanh, dễ hợp tác, tập trung
+            vào kết quả.
           </p>
 
           <div className="contact__actions">
             <a href={site.phoneHref} className="btn btn--primary">
-              Call Me
+              Gọi cho tôi
             </a>
             <a href={site.emailHref} className="btn btn--ghost">
-              Email Me
+              Gửi Email
             </a>
             <a href={site.cvFile} className="btn btn--outline" download>
-              Download CV
+              Tải CV
             </a>
           </div>
 
           <div className="contact__details">
             <div className="contact__detail">
-              <span className="contact__label">Phone</span>
+              <span className="contact__label">Điện thoại</span>
               <a href={site.phoneHref} className="contact__value">
                 {site.phone}
               </a>
@@ -41,8 +42,8 @@ export default function Contact() {
               </a>
             </div>
             <div className="contact__detail">
-              <span className="contact__label">Availability</span>
-              <span className="contact__value">Part-time / Evening</span>
+              <span className="contact__label">Thời gian làm việc</span>
+              <span className="contact__value">Part-time / Buổi tối</span>
             </div>
           </div>
         </div>

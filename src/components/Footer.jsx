@@ -12,7 +12,7 @@ export default function Footer() {
         </span>
         <div className="footer__links">
           <a href={site.emailHref}>Email</a>
-          <a href="#top">Back to top ↑</a>
+          <a href="#top">Lên đầu trang ↑</a>
         </div>
       </div>
     </footer>

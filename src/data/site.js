@@ -4,12 +4,12 @@ export const site = {
   name: 'Bùi Tuấn Dũng',
   brandName: 'DUNG BUI',
   role: 'Sales | Marketing | AI Content & Automation',
-  status: 'Available for Part-time / Evening Work',
+  status: 'Sẵn sàng nhận việc Part-time / Buổi tối',
   phone: '0974 984 301',
   phoneHref: 'tel:+84974984301',
   email: 'buituandung1405@gmail.com',
   emailHref: 'mailto:buituandung1405@gmail.com',
-  location: 'Vietnam',
+  location: 'Việt Nam',
   cvFile: '/Bui-Tuan-Dung-CV.pdf',
   socials: [
     { label: 'Facebook', href: 'https://www.facebook.com/share/1HWnsgxDx7/?mibextid=wwXIfr' },
@@ -18,10 +18,10 @@ export const site = {
 }
 
 export const navLinks = [
-  { label: 'About', href: '#about' },
-  { label: 'Experience', href: '#experience' },
-  { label: 'Skills', href: '#skills' },
+  { label: 'Giới thiệu', href: '#about' },
+  { label: 'Kinh nghiệm', href: '#experience' },
+  { label: 'Kỹ năng', href: '#skills' },
   { label: 'AI & Marketing', href: '#ai-marketing' },
-  { label: 'Portfolio', href: '#portfolio' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Dự án', href: '#portfolio' },
+  { label: 'Liên hệ', href: '#contact' },
 ]

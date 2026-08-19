@@ -18,9 +18,9 @@ export default function Portfolio() {
     <section id="portfolio" className="section portfolio">
       <div className="container">
         <div className={`section-head ${visible ? 'is-visible' : ''}`} ref={ref}>
-          <p className="overline">Portfolio</p>
+          <p className="overline">Dự án</p>
           <h2 className="section-title">
-            Work I can <span className="accent">show, not just tell</span>
+            Công việc tôi có thể <span className="accent">cho xem, không chỉ nói</span>
           </h2>
         </div>
 
@@ -72,7 +72,7 @@ function ProjectCard({ project, onOpen }) {
             </span>
           ))}
         </div>
-        <span className="project-card__cta">View Project →</span>
+        <span className="project-card__cta">Xem dự án →</span>
       </div>
     </article>
   )
@@ -86,7 +86,7 @@ function ProjectModal({ project, onClose }) {
   return (
     <div className="modal" role="dialog" aria-modal="true" onClick={closeOnBackdrop}>
       <div className="modal__box">
-        <button className="modal__close" aria-label="Close" onClick={onClose}>
+        <button className="modal__close" aria-label="Đóng" onClick={onClose}>
           ×
         </button>
         <div className="modal__media">
@@ -105,7 +105,7 @@ function ProjectModal({ project, onClose }) {
           </div>
           {project.link && project.link !== '#' && (
             <a href={project.link} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">
-              View Live →
+              Xem trực tiếp →
             </a>
           )}
         </div>

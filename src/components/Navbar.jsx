@@ -28,13 +28,13 @@ export default function Navbar() {
             </a>
           ))}
           <a href={site.cvFile} className="btn btn--sm navbar__cta" download onClick={close}>
-            Download CV
+            Tải CV
           </a>
         </nav>
 
         <button
           className="navbar__toggle"
-          aria-label="Toggle menu"
+          aria-label="Chuyển menu"
           aria-expanded={open}
           onClick={() => setOpen((v) => !v)}
         >
