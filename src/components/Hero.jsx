@@ -1,3 +1,4 @@
+import { useState } from 'react'
 import { site } from '../data/site.js'
 import { useReveal } from '../hooks/useReveal.js'
 
@@ -9,6 +10,7 @@ const heroStats = [
 
 export default function Hero() {
   const { ref, visible } = useReveal()
+  const [showCv, setShowCv] = useState(false)
 
   return (
     <section id="top" className="hero">
@@ -29,6 +31,9 @@ export default function Hero() {
             <a href="#portfolio" className="btn btn--primary">
               Xem dự án của tôi
             </a>
+            <button type="button" className="btn btn--outline" onClick={() => setShowCv(true)}>
+              Xem CV
+            </button>
             <a href={site.cvFile} className="btn btn--ghost" download>
               Tải CV
             </a>
@@ -49,6 +54,31 @@ export default function Hero() {
           </div>
         </div>
       </div>
+
+      {showCv && (
+        <div className="modal cv-modal" onClick={() => setShowCv(false)}>
+          <div className="modal__box cv-modal__box" onClick={(e) => e.stopPropagation()}>
+            <button
+              type="button"
+              className="modal__close"
+              onClick={() => setShowCv(false)}
+              aria-label="Đóng CV"
+            >
+              ×
+            </button>
+            <iframe
+              src={site.cvFile}
+              title="CV của Bùi Tuấn Dũng"
+              className="cv-modal__frame"
+            />
+            <div className="cv-modal__footer">
+              <a href={site.cvFile} className="btn btn--primary" download>
+                Tải CV xuống
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
     </section>
   )
 }
