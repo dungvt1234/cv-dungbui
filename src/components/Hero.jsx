@@ -31,7 +31,7 @@ export default function Hero() {
             <a href="#portfolio" className="btn btn--primary">
               Xem dự án của tôi
             </a>
-            <button type="button" className="btn btn--outline" onClick={() => setShowCv(true)}>
+            <button type="button" className="btn btn--cv" onClick={() => setShowCv(true)}>
               Xem CV
             </button>
             <a href={site.cvFile} className="btn btn--ghost" download>
