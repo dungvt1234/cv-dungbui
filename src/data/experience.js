@@ -27,17 +27,15 @@ export const experience = [
   {
     id: 'real-estate',
     type: 'work',
-    period: 'Giữa 2022 – 2024',
-    title: 'Kinh doanh Bất động sản',
+    period: '2022 – 2024',
+    title: 'Nhân viên Kinh doanh Bất động sản',
     subtitle: 'Condotel & Căn hộ thương mại',
-    summary: 'Tư vấn và bán bất động sản ở phân khúc condotel và căn hộ thương mại.',
+    summary: 'Bán bất động sản phân khúc condotel và căn hộ thương mại.',
     points: [
-      'Tư vấn và bán bất động sản ở phân khúc condotel và căn hộ thương mại.',
-      'Tìm kiếm và phát triển khách hàng tiềm năng.',
-      'Tư vấn sản phẩm và giải đáp nhu cầu của khách hàng.',
-      'Đồng hành cùng khách hàng trong toàn bộ quy trình bán hàng.',
-      'Đàm phán và xử lý các băn khoăn, phản đối của khách hàng.',
-      'Xây dựng và duy trì mối quan hệ với khách hàng.',
+      'Tư vấn và bán condotel, căn hộ thương mại.',
+      'Tìm kiếm khách hàng tiềm năng.',
+      'Đàm phán và chốt đơn hàng.',
+      'Chăm sóc khách hàng sau bán.',
     ],
   },
   {
@@ -88,7 +86,7 @@ export const experience = [
 // Timeline mốc tổng hợp (hiển thị dọc theo thời gian)
 export const timeline = [
   { period: '2024 – Nay', label: 'Phân phối vật liệu xây dựng', type: 'work' },
-  { period: 'Giữa 2022 – 2024', label: 'Kinh doanh Bất động sản', type: 'work' },
+  { period: '2022 – 2024', label: 'Kinh doanh Bất động sản', type: 'work' },
   { period: '2022', label: 'Khóa học lập trình FPT', type: 'course' },
   { period: '2020 – 2022', label: 'Nghĩa vụ quân sự', type: 'military' },
   { period: '2015 – 2019', label: 'Học vấn', type: 'education' },
