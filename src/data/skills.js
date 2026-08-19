@@ -50,9 +50,11 @@ export const skillGroups = [
       'AI Video',
       'AI Image',
       'AI Automation',
+      'AI Phân tích dữ liệu',
       'Phát triển Web',
       'Microsoft Word',
       'Microsoft Excel',
+      'Microsoft PowerPoint',
     ],
   },
 ]
