@@ -1,6 +1,5 @@
 import { useState } from 'react'
 import { site } from '../data/site.js'
-import { useReveal } from '../hooks/useReveal.js'
 
 const heroStats = [
   { value: '500M+', label: 'Doanh thu đỉnh' },
@@ -9,13 +8,12 @@ const heroStats = [
 ]
 
 export default function Hero() {
-  const { ref, visible } = useReveal()
   const [showCv, setShowCv] = useState(false)
 
   return (
     <section id="top" className="hero">
       <div className="container hero__inner">
-        <div className={`hero__content ${visible ? 'is-visible' : ''}`} ref={ref}>
+        <div className="hero__content is-visible">
           <span className="hero__badge">
             <span className="hero__dot" />
             {site.status}
@@ -48,7 +46,7 @@ export default function Hero() {
           </div>
         </div>
 
-        <div className={`hero__visual ${visible ? 'is-visible' : ''}`}>
+        <div className="hero__visual is-visible">
           <div className="hero__photo-frame">
             <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Sales, Marketing & AI Content" className="hero__photo" />
           </div>
