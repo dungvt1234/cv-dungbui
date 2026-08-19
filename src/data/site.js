@@ -1,7 +1,7 @@
 // ===== Site-wide data: contact info, nav links =====
 
 export const site = {
-  name: 'Bùi Tuấn Dũng',
+  name: 'Bùi Dũng',
   brandName: 'DUNG BUI',
   role: 'Sales | Marketing | AI Content & Automation',
   status: 'Sẵn sàng nhận việc Part-time / Buổi tối',

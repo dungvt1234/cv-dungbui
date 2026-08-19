@@ -45,7 +45,7 @@ export default function Hero() {
 
         <div className={`hero__visual ${visible ? 'is-visible' : ''}`}>
           <div className="hero__photo-frame">
-            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Chuyên gia Sales, Marketing & AI Content" className="hero__photo" />
+            <img src="/assets/profile.jpg" alt="Bùi Dũng — Chuyên gia Sales, Marketing & AI Content" className="hero__photo" />
           </div>
         </div>
       </div>
