@@ -74,4 +74,14 @@ export const projects = [
     tools: ['AI', 'Webapp', 'POS'],
     link: '#',
   },
+  {
+    id: 'p8',
+    title: 'Video Content Creator',
+    category: 'AI VIDEO',
+    image: '/assets/projects/p8-content-creator.jpg',
+    description:
+      'Video content ngắn theo xu hướng cho thương hiệu — ý tưởng kịch bản, hình ảnh và âm thanh được xử lý bằng AI, sẵn sàng đăng TikTok / Reels / Shorts để tăng tương tác và nhận diện thương hiệu.',
+    tools: ['AI Video', 'Kịch bản AI', 'Âm thanh AI'],
+    link: '#',
+  },
 ]
