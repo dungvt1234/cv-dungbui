@@ -20,11 +20,12 @@ export const skillGroups = [
     title: 'Management',
     icon: 'chart',
     skills: [
-      'Team Management',
+      'Team Coordination',
       'Project Coordination',
       'Construction Site Supervision',
       'Inventory Management',
       'Business Operations',
+      'Finance & Accounting',
     ],
   },
   {

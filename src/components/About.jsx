@@ -28,6 +28,11 @@ export default function About() {
               marketing campaigns</strong> — and I know my way around web development, AI automation,
               Word and Excel.
             </p>
+            <p>
+              With a degree in <strong>Business Administration (Accounting)</strong>, I have a
+              foundation in <strong>finance and economics</strong> — cost tracking, pricing and
+              financial records — which helps me understand the numbers behind everyday business.
+            </p>
           </div>
 
           <div className="about__facts">
