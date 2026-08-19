@@ -13,9 +13,10 @@ export default function About() {
               Kết quả kinh doanh là trên hết, <span className="accent">AI là đòn bẩy</span>
             </h2>
             <p>
-              Tôi có kinh nghiệm thực tế trong <strong>kinh doanh bất động sản</strong> và{' '}
-              <strong>phân phối vật liệu xây dựng &amp; sơn</strong> — trực tiếp làm sales, tư vấn
-              khách hàng và phát triển kinh doanh.
+              Tôi có kinh nghiệm thực tế trong <strong>phân phối vật liệu xây dựng &amp; sơn</strong>{' '}
+              — trực tiếp làm sales, tư vấn khách hàng và phát triển kinh doanh. Bên cạnh đó, tôi
+              cũng từng làm <strong>nhân viên kinh doanh bất động sản</strong> (condotel, căn hộ
+              thương mại).
             </p>
             <p>
               Từ năm 2024, tôi đầu tư vào doanh nghiệp phân phối vật liệu xây dựng &amp; sơn — làm
