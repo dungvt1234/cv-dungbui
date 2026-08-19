@@ -10,7 +10,7 @@ export default function Experience() {
         <div className={`section-head ${visible ? 'is-visible' : ''}`} ref={ref}>
           <p className="overline">Experience</p>
           <h2 className="section-title">
-            A track record of <span className="accent">selling, managing and delivering</span>
+            A track record of <span className="accent">selling, coordinating and delivering</span>
           </h2>
         </div>
 

@@ -14,13 +14,13 @@ export default function About() {
             </h2>
             <p>
               I have hands-on experience in <strong>real estate sales</strong> and{' '}
-              <strong>building materials distribution</strong>, combined with running a business,
-              managing people and supervising construction projects.
+              <strong>building materials distribution</strong>, combined with investing in a business,
+              working with people and supervising construction projects.
             </p>
             <p>
-              Since 2024 I have been operating my own building materials &amp; paint distribution
-              business — managing 3–5 staff, reaching a peak of about{' '}
-              <strong>500 million VND/month</strong> in revenue and overseeing around{' '}
+              Since 2024 I have invested in a building materials &amp; paint distribution
+              business — working with a 3–5 person team, with the business reaching a peak of about{' '}
+              <strong>500 million VND/month</strong> in revenue while I oversaw around{' '}
               <strong>6 construction projects per month</strong>.
             </p>
             <p>

@@ -2,8 +2,8 @@ import { site } from '../data/site.js'
 import { useReveal } from '../hooks/useReveal.js'
 
 const heroStats = [
-  { value: '500M+', label: 'Peak Monthly Revenue' },
-  { value: '3–5', label: 'Team Members' },
+  { value: '500M+', label: 'Business Peak Revenue' },
+  { value: '3–5', label: 'Business Team' },
   { value: '6', label: 'Projects / Month' },
 ]
 

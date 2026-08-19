@@ -3,23 +3,23 @@
 
 export const experience = [
   {
-    id: 'business-owner',
+    id: 'business-investor',
     type: 'work',
     period: '2024 – Present',
-    title: 'Business Owner / Sales & Distribution',
+    title: 'Investor / Sales & Distribution',
     subtitle: 'Building Materials & Paint Distribution',
     summary:
-      'Self-operated building material and paint distribution business, managing a 3–5 person team with peak monthly revenue of ~500M VND.',
+      'Invested in a building material and paint distribution business, working with a 3–5 person team with peak monthly revenue of ~500M VND.',
     points: [
-      'Self-operated the sales and distribution of building materials.',
+      'Invested in the business and directly handled sales and distribution of building materials.',
       'Distributed paint brands including Jotun, Dulux, Kansai and related products.',
       'Peak revenue of approximately 500 million VND/month.',
-      'Managed a team of 3–5 staff.',
-      'Managed and supervised approximately 6 construction projects/month.',
+      'Worked with a team of 3–5 staff.',
+      'Supervised approximately 6 construction projects/month.',
       'Consulted customers on products and solutions.',
       'Sourced, developed and cared for customers.',
       'Negotiated pricing and closed orders.',
-      'Managed orders, inventory and after-sales operations.',
+      'Handled orders, inventory and after-sales operations.',
       'Coordinated with construction teams and tracked project progress.',
       'Supervised construction sites and resolved arising issues.',
     ],
