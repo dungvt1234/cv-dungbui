@@ -64,4 +64,14 @@ export const projects = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://soyzi-website.vercel.app',
   },
+  {
+    id: 'p7',
+    title: 'Webapp bán hàng (POS) bằng AI',
+    category: 'WEB',
+    image: '/assets/projects/p7-lalamoon-pos.jpg',
+    description:
+      'Video demo webapp quản lý bán hàng (POS) được tạo bằng AI — chọn món, tính tiền, quản lý đơn hàng và nhân viên. Giao diện trực quan, thao tác nhanh, phù hợp cho quán F&B.',
+    tools: ['AI', 'Webapp', 'POS'],
+    link: '#',
+  },
 ]
