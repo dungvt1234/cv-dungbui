@@ -14,14 +14,13 @@ export default function About() {
             </h2>
             <p>
               Tôi có kinh nghiệm thực tế trong <strong>kinh doanh bất động sản</strong> và{' '}
-              <strong>phân phối vật liệu xây dựng</strong>, kết hợp với việc đầu tư kinh doanh,
-              làm việc cùng mọi người và giám sát các công trình xây dựng.
+              <strong>phân phối vật liệu xây dựng &amp; sơn</strong> — trực tiếp làm sales, tư vấn
+              khách hàng và phát triển kinh doanh.
             </p>
             <p>
               Từ năm 2024, tôi đầu tư vào doanh nghiệp phân phối vật liệu xây dựng &amp; sơn — làm
               việc cùng đội ngũ 3–5 người, với doanh thu đạt đỉnh khoảng{' '}
-              <strong>500 triệu VND/tháng</strong> và giám sát khoảng{' '}
-              <strong>6 công trình mỗi tháng</strong>.
+              <strong>500 triệu VND/tháng</strong>.
             </p>
             <p>
               Ngoài sales, tôi dùng <strong>AI để tạo video quảng cáo ngắn, ảnh sản phẩm, banner
