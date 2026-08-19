@@ -23,9 +23,9 @@ export default function Hero() {
           <h1 className="hero__name">{site.name}</h1>
           <p className="hero__role">{site.role}</p>
           <p className="hero__summary">
-            Chuyên gia Sales &amp; kinh doanh với kinh nghiệm thực tế trong lĩnh vực vật liệu xây
-            dựng và bất động sản — cùng kỹ năng thực tiễn về AI content, automation và web. Tìm kiếm
-            cơ hội part-time / buổi tối để tạo ra kết quả thực sự.
+            Kinh nghiệm thực tế về sales &amp; kinh doanh trong lĩnh vực vật liệu xây dựng và bất
+            động sản — cùng kỹ năng thực tiễn về AI content, automation và web. Tìm kiếm cơ hội
+            part-time / buổi tối để tạo ra kết quả thực sự.
           </p>
           <div className="hero__actions">
             <a href="#portfolio" className="btn btn--primary">
@@ -50,7 +50,7 @@ export default function Hero() {
 
         <div className={`hero__visual ${visible ? 'is-visible' : ''}`}>
           <div className="hero__photo-frame">
-            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Chuyên gia Sales, Marketing & AI Content" className="hero__photo" />
+            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Sales, Marketing & AI Content" className="hero__photo" />
           </div>
         </div>
       </div>
