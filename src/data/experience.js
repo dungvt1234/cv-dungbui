@@ -6,8 +6,8 @@ export const experience = [
     id: 'business-investor',
     type: 'work',
     period: '2024 – Nay',
-    title: 'Nhà đầu tư / Kinh doanh & Phân phối',
-    subtitle: 'Phân phối vật liệu xây dựng & sơn',
+    title: 'Kinh doanh & Phân phối',
+    subtitle: 'Vật liệu xây dựng & sơn',
     summary:
       'Đầu tư vào doanh nghiệp phân phối vật liệu xây dựng và sơn, làm việc cùng đội ngũ 3–5 người với doanh thu đỉnh khoảng 500 triệu VND/tháng.',
     points: [
