@@ -11,17 +11,11 @@ export const experience = [
     summary:
       'Đầu tư vào doanh nghiệp phân phối vật liệu xây dựng và sơn, làm việc cùng đội ngũ 3–5 người với doanh thu đỉnh khoảng 500 triệu VND/tháng.',
     points: [
-      'Đầu tư vào doanh nghiệp và trực tiếp phụ trách kinh doanh, phân phối vật liệu xây dựng.',
-      'Phân phối các thương hiệu sơn gồm Jotun, Dulux, Kansai và các sản phẩm liên quan.',
-      'Doanh thu đỉnh khoảng 500 triệu VND/tháng.',
-      'Làm việc với đội ngũ 3–5 nhân viên.',
-      'Giám sát khoảng 6 công trình xây dựng/tháng.',
-      'Tư vấn khách hàng về sản phẩm và giải pháp.',
+      'Đầu tư vào doanh nghiệp phân phối sơn & vật liệu xây dựng, trực tiếp phụ trách kinh doanh.',
+      'Phân phối các thương hiệu lớn: Jotun, Dulux, Kansai.',
+      'Doanh thu đỉnh ~500 triệu VND/tháng, quản lý đội 3–5 người.',
+      'Tư vấn, đàm phán và chốt đơn hàng với khách hàng.',
       'Tìm kiếm, phát triển và chăm sóc khách hàng.',
-      'Đàm phán giá và chốt đơn hàng.',
-      'Xử lý đơn hàng, tồn kho và công việc hậu mãi.',
-      'Phối hợp với đội thi công và theo dõi tiến độ công trình.',
-      'Giám sát công trường và xử lý các vấn đề phát sinh.',
     ],
   },
   {
