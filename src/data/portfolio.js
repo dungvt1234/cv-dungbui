@@ -54,4 +54,14 @@ export const projects = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://fairy-luxury-website.vercel.app',
   },
+  {
+    id: 'p6',
+    title: 'Website thương hiệu Soyzi',
+    category: 'WEB',
+    image: '/assets/projects/p6-soyzi-web.jpg',
+    description:
+      'Website thương hiệu cho Soyzi — sữa chua tự nhiên cao cấp. Thiết kế hiện đại, responsive, truyền tải hình ảnh sản phẩm tươi sạch và thông tin thương hiệu rõ ràng.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
+    link: 'https://soyzi-website.vercel.app',
+  },
 ]
