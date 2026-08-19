@@ -61,6 +61,9 @@ function ProjectCard({ project, onOpen }) {
           className="project-card__img"
         />
         <span className="project-card__tag">{project.category}</span>
+        {project.video && (
+          <span className="project-card__play">▶</span>
+        )}
       </div>
       <div className="project-card__body">
         <h3 className="project-card__title">{project.title}</h3>
@@ -90,7 +93,17 @@ function ProjectModal({ project, onClose }) {
           ×
         </button>
         <div className="modal__media">
-          <img src={project.image} alt={project.title} />
+          {project.video ? (
+            <video
+              src={project.video}
+              controls
+              autoPlay
+              playsInline
+              className="modal__video"
+            />
+          ) : (
+            <img src={project.image} alt={project.title} />
+          )}
         </div>
         <div className="modal__body">
           <span className="modal__tag">{project.category}</span>

@@ -69,6 +69,7 @@ export const projects = [
     title: 'Webapp bán hàng (POS) bằng AI',
     category: 'WEB',
     image: '/assets/projects/p7-lalamoon-pos.jpg',
+    video: '/assets/projects/p7-lalamoon-pos.mp4',
     description:
       'Video demo webapp quản lý bán hàng (POS) được tạo bằng AI — chọn món, tính tiền, quản lý đơn hàng và nhân viên. Giao diện trực quan, thao tác nhanh, phù hợp cho quán F&B.',
     tools: ['AI', 'Webapp', 'POS'],
@@ -79,6 +80,7 @@ export const projects = [
     title: 'Video Content Creator',
     category: 'AI VIDEO',
     image: '/assets/projects/p8-content-creator.jpg',
+    video: '/assets/projects/p8-content-creator.mp4',
     description:
       'Video content ngắn theo xu hướng cho thương hiệu — ý tưởng kịch bản, hình ảnh và âm thanh được xử lý bằng AI, sẵn sàng đăng TikTok / Reels / Shorts để tăng tương tác và nhận diện thương hiệu.',
     tools: ['AI Video', 'Kịch bản AI', 'Âm thanh AI'],
