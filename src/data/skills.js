@@ -18,6 +18,19 @@ export const skillGroups = [
     ],
   },
   {
+    id: 'marketing',
+    title: 'Marketing',
+    icon: 'megaphone',
+    skills: [
+      'Sáng tạo nội dung',
+      'Lập kế hoạch chiến dịch Marketing',
+      'Nội dung mạng xã hội',
+      'Thiết kế Banner',
+      'Creative sản phẩm',
+      'AI Marketing',
+    ],
+  },
+  {
     id: 'sales',
     title: 'Sales',
     icon: 'handshake',
@@ -42,19 +55,6 @@ export const skillGroups = [
       'Quản lý kho',
       'Vận hành kinh doanh',
       'Tài chính & Kế toán',
-    ],
-  },
-  {
-    id: 'marketing',
-    title: 'Marketing',
-    icon: 'megaphone',
-    skills: [
-      'Sáng tạo nội dung',
-      'Lập kế hoạch chiến dịch Marketing',
-      'Nội dung mạng xã hội',
-      'Thiết kế Banner',
-      'Creative sản phẩm',
-      'AI Marketing',
     ],
   },
 ]
