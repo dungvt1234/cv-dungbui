@@ -10,43 +10,41 @@ export default function About() {
           <div className="about__text">
             <p className="overline">Giới thiệu</p>
             <h2 className="section-title">
-              Kết quả kinh doanh là trên hết, <span className="accent">AI là đòn bẩy</span>
+              Buổi tối, tôi giúp doanh nghiệp nhỏ{' '}
+              <span className="accent">lo phần công nghệ và số liệu</span>
             </h2>
             <p>
-              Tôi có kinh nghiệm thực tế trong <strong>phân phối vật liệu xây dựng &amp; sơn</strong>{' '}
-              — trực tiếp làm sales, tư vấn khách hàng và phát triển kinh doanh. Bên cạnh đó, tôi
-              cũng từng làm <strong>nhân viên kinh doanh bất động sản</strong> (condotel, căn hộ
-              thương mại).
+              Tôi làm website, webapp quản lý, bảng sổ sách tài chính, phân tích dữ liệu bán hàng
+              và nội dung marketing bằng AI — phù hợp với quán, spa, homestay, cửa hàng và doanh
+              nghiệp nhỏ.
             </p>
             <p>
-              Từ năm 2024, tôi đầu tư vào doanh nghiệp phân phối vật liệu xây dựng &amp; sơn — làm
-              việc cùng đội ngũ 3–5 người, với doanh thu đạt đỉnh khoảng{' '}
-              <strong>500 triệu VND/tháng</strong>.
+              Trước đây tôi từng trực tiếp kinh doanh vật liệu xây dựng &amp; sơn (Jotun, Dulux,
+              Kansai) — doanh thu đỉnh khoảng <strong>500 triệu đồng/tháng</strong>, quản lý đội 3–5
+              người. Nhờ vậy tôi hiểu việc kinh doanh thực tế của chủ quán, chủ cửa hàng hơn là chỉ
+              làm theo yêu cầu kỹ thuật.
             </p>
             <p>
-              Ngoài sales, tôi dùng <strong>AI để tạo video quảng cáo ngắn, ảnh sản phẩm, banner
-              và chiến dịch marketing</strong> — đồng thời am hiểu phát triển web, tự động hóa bằng
-              AI, Word và Excel.
+              Tôi có bằng Quản trị kinh doanh (chuyên ngành Kế toán), nên việc làm sổ sách và báo
+              cáo tài chính là đúng chuyên môn.
             </p>
             <p>
-              Với tấm bằng <strong>Quản trị kinh doanh (Kế toán)</strong>, tôi có nền tảng về{' '}
-              <strong>tài chính và kinh tế</strong> — theo dõi chi phí, định giá và sổ sách tài
-              chính — giúp tôi hiểu rõ con số đằng sau mỗi thương vụ kinh doanh hằng ngày.
+              Hiện tôi nhận việc vào buổi tối, làm từ xa, giá hợp lý hơn thuê agency.
             </p>
           </div>
 
           <div className="about__facts">
             <div className="fact-card">
               <span className="fact-card__label">Hiện tại</span>
-              <span className="fact-card__value">Sẵn sàng nhận việc part-time / buổi tối</span>
+              <span className="fact-card__value">Nhận việc part-time / buổi tối</span>
             </div>
             <div className="fact-card">
-              <span className="fact-card__label">Trọng tâm</span>
-              <span className="fact-card__value">Sales • Marketing • AI Content</span>
+              <span className="fact-card__label">Làm gì</span>
+              <span className="fact-card__value">Website • Sổ sách • Phân tích dữ liệu • Nội dung AI</span>
             </div>
             <div className="fact-card">
-              <span className="fact-card__label">Thế mạnh cốt lõi</span>
-              <span className="fact-card__value">Chốt deal + sản xuất nội dung bằng AI</span>
+              <span className="fact-card__label">Kinh nghiệm</span>
+              <span className="fact-card__value">Kinh doanh 500 triệu/tháng + bằng Kế toán</span>
             </div>
             <div className="fact-card">
               <span className="fact-card__label">Địa điểm</span>
