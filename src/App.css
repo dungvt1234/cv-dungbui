@@ -1383,18 +1383,18 @@ a.contact__value:hover {
   }
 }
 
-/* ---------- Evening Services ---------- */
-.evening {
+/* ---------- Remote Services ---------- */
+.remote {
   background: var(--bg-soft, #f5f7f5);
 }
 
-.evening__grid {
+.remote__grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
-.evening-card {
+.remote-card {
   background: #fff;
   border-radius: 16px;
   padding: 28px 24px;
@@ -1403,12 +1403,12 @@ a.contact__value:hover {
   transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
-.evening-card:hover {
+.remote-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 10px 28px rgba(0, 0, 0, 0.09);
 }
 
-.evening-card__icon {
+.remote-card__icon {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -1420,7 +1420,7 @@ a.contact__value:hover {
   margin-bottom: 16px;
 }
 
-.evening-card h3 {
+.remote-card h3 {
   font-family: var(--font-head);
   font-size: 19px;
   font-weight: 700;
@@ -1428,14 +1428,14 @@ a.contact__value:hover {
   margin-bottom: 10px;
 }
 
-.evening-card p {
+.remote-card p {
   color: var(--text-muted);
   font-size: 14.5px;
   line-height: 1.65;
   margin-bottom: 14px;
 }
 
-.evening-card__proof {
+.remote-card__proof {
   font-size: 13px;
   color: var(--green-dark);
   background: var(--green-light, #e7f3ec);
@@ -1445,13 +1445,13 @@ a.contact__value:hover {
 }
 
 @media (max-width: 1024px) {
-  .evening__grid {
+  .remote__grid {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media (max-width: 600px) {
-  .evening__grid {
+  .remote__grid {
     grid-template-columns: 1fr;
   }
 }

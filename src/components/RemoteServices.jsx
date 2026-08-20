@@ -1,4 +1,4 @@
-const eveningServices = [
+const remoteServices = [
   {
     icon: '💻',
     title: 'Công nghệ',
@@ -25,30 +25,30 @@ const eveningServices = [
   },
 ]
 
-export default function EveningServices() {
+export default function RemoteServices() {
   return (
-    <section id="evening-services" className="section evening">
+    <section id="remote-services" className="section remote">
       <div className="container">
         <div className="section-head section-head--center">
-          <p className="overline">Dịch vụ buổi tối</p>
+          <p className="overline">Dịch vụ remote</p>
           <h2 className="section-title">
             Công nghệ • Sổ sách • Phân tích dữ liệu • Marketing AI
           </h2>
           <p className="section-sub">
             Bốn mảng, một người lo — phù hợp với quán, spa, homestay, cửa hàng và doanh nghiệp nhỏ.
-            Làm việc buổi tối, giao đúng hẹn.
+            Làm việc remote, giao đúng hẹn.
           </p>
         </div>
 
-        <div className="evening__grid">
-          {eveningServices.map((s) => (
-            <article key={s.title} className="evening-card">
-              <span className="evening-card__icon" aria-hidden="true">
+        <div className="remote__grid">
+          {remoteServices.map((s) => (
+            <article key={s.title} className="remote-card">
+              <span className="remote-card__icon" aria-hidden="true">
                 {s.icon}
               </span>
               <h3>{s.title}</h3>
               <p>{s.desc}</p>
-              <div className="evening-card__proof">{s.proof}</div>
+              <div className="remote-card__proof">{s.proof}</div>
             </article>
           ))}
         </div>

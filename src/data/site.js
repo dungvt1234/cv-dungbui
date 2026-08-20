@@ -4,7 +4,7 @@ export const site = {
   name: 'Bùi Tuấn Dũng',
   brandName: 'DUNG BUI',
   role: 'Công nghệ • Sổ sách • Phân tích dữ liệu • Marketing AI',
-  status: 'Sẵn sàng nhận việc Part-time / Buổi tối',
+  status: 'Sẵn sàng nhận việc Part-time / Remote',
   phone: '0974 984 301',
   phoneHref: 'tel:+84974984301',
   email: 'buituandung1405@gmail.com',
@@ -22,7 +22,7 @@ export const navLinks = [
   { label: 'Kinh nghiệm', href: '#experience' },
   { label: 'Kỹ năng', href: '#skills' },
   { label: 'AI & Marketing', href: '#ai-marketing' },
-  { label: 'Dịch vụ buổi tối', href: '#evening-services' },
+  { label: 'Dịch vụ remote', href: '#remote-services' },
   { label: 'Dự án', href: '#portfolio' },
   { label: 'Liên hệ', href: '#contact' },
 ]

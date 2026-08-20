@@ -10,7 +10,7 @@ export default function About() {
           <div className="about__text">
             <p className="overline">Giới thiệu</p>
             <h2 className="section-title">
-              Buổi tối, tôi giúp doanh nghiệp nhỏ{' '}
+              Làm remote, tôi giúp doanh nghiệp nhỏ{' '}
               <span className="accent">lo phần công nghệ và số liệu</span>
             </h2>
             <p>
@@ -29,14 +29,14 @@ export default function About() {
               cáo tài chính là đúng chuyên môn.
             </p>
             <p>
-              Hiện tôi nhận việc vào buổi tối, làm từ xa, giá hợp lý hơn thuê agency.
+              Hiện tôi nhận việc làm remote, giá hợp lý hơn thuê agency.
             </p>
           </div>
 
           <div className="about__facts">
             <div className="fact-card">
               <span className="fact-card__label">Hiện tại</span>
-              <span className="fact-card__value">Nhận việc part-time / buổi tối</span>
+              <span className="fact-card__value">Nhận việc part-time / remote</span>
             </div>
             <div className="fact-card">
               <span className="fact-card__label">Làm gì</span>

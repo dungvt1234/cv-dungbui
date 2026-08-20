@@ -11,7 +11,7 @@ export default function Contact() {
           <p className="overline">Liên hệ</p>
           <h2 className="section-title">Hãy cùng làm việc</h2>
           <p className="contact__intro">
-            Sẵn sàng nhận các vị trí part-time / buổi tối trong lĩnh vực Sales, Chăm sóc khách
+            Sẵn sàng nhận các vị trí part-time / remote trong lĩnh vực Sales, Chăm sóc khách
             hàng, Marketing và Sáng tạo nội dung bằng AI. Thích nghi nhanh, dễ hợp tác, tập trung
             vào kết quả.
           </p>
@@ -43,7 +43,7 @@ export default function Contact() {
             </div>
             <div className="contact__detail">
               <span className="contact__label">Thời gian làm việc</span>
-              <span className="contact__value">Part-time / Buổi tối</span>
+              <span className="contact__value">Part-time / Remote</span>
             </div>
           </div>
         </div>

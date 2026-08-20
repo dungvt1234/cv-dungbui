@@ -3,7 +3,7 @@ import { site } from '../data/site.js'
 
 const heroStats = [
   { value: '10+', label: 'Web & webapp đã làm' },
-  { value: '4', label: 'Mảng dịch vụ buổi tối' },
+  { value: '4', label: 'Mảng dịch vụ remote' },
   { value: '500M+', label: 'Doanh thu đỉnh (kinh doanh)' },
 ]
 
@@ -21,7 +21,7 @@ export default function Hero() {
           <h1 className="hero__name">{site.name}</h1>
           <p className="hero__role">{site.role}</p>
           <p className="hero__summary">
-            Làm việc buổi tối, nhận trọn phần <strong>công nghệ &amp; số liệu</strong> cho doanh
+            Làm việc remote, nhận trọn phần <strong>công nghệ &amp; số liệu</strong> cho doanh
             nghiệp nhỏ: website, webapp quản lý, sổ sách kế toán đơn giản và phân tích dữ liệu bán
             hàng. Kinh nghiệm sales thực chiến (vật liệu xây dựng, bất động sản) giúp hiểu khách
             hàng và chốt việc đúng trọng tâm.

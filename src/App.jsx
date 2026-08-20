@@ -6,7 +6,7 @@ import Experience from './components/Experience.jsx'
 import Achievements from './components/Achievements.jsx'
 import Skills from './components/Skills.jsx'
 import AISection from './components/AISection.jsx'
-import EveningServices from './components/EveningServices.jsx'
+import RemoteServices from './components/RemoteServices.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
@@ -39,7 +39,7 @@ export default function App() {
         <Achievements />
         <Skills />
         <AISection />
-        <EveningServices />
+        <RemoteServices />
         <Portfolio />
         <Contact />
       </main>
