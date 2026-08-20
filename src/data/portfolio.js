@@ -96,14 +96,4 @@ export const projects = [
     tools: ['Node.js', 'Express', 'SQLite'],
     link: '#',
   },
-  {
-    id: 'p10',
-    title: 'Bảng theo dõi tài chính Soyzi',
-    category: 'MARKETING',
-    image: '/assets/projects/p10-financial.svg',
-    description:
-      'Bảng theo dõi tài chính cho thương hiệu Soyzi: doanh thu, chi phí, lợi nhuận, ROI theo tháng, cơ cấu chi phí và sản phẩm bán chạy — tự động tính toán, dễ nhìn cho chủ doanh nghiệp nhỏ.',
-    tools: ['Excel', 'Google Sheets', 'Phân tích dữ liệu'],
-    link: '#',
-  },
 ]
