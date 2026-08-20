@@ -12,8 +12,8 @@ const cards = [
     icon: 'M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18Zm0 16a7 7 0 1 1 0-14 7 7 0 0 1 0 14Zm-2-10 5 3-5 3V9Z',
   },
   {
-    title: 'AI Marketing',
-    desc: 'Ý tưởng chiến dịch, lập kế hoạch nội dung và concept quảng cáo — dùng AI để tăng tốc sản xuất nội dung.',
+    title: 'AI Strategy',
+    desc: 'Tư duy chiến lược: ý tưởng chiến dịch, lập kế hoạch nội dung, concept quảng cáo — dùng AI để tăng tốc sản xuất nội dung.',
     icon: 'M3 10v4h3l4 4V6L6 10H3Zm18-2v8a2 2 0 0 1-2 2h-2v2h-4v-2h-2l-2-2h6V4h2a2 2 0 0 1 2 2v2Z',
   },
   {

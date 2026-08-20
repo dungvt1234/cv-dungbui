@@ -20,7 +20,7 @@ const eveningServices = [
   {
     icon: '📣',
     title: 'Marketing AI',
-    desc: 'Bài đăng Facebook / Zalo thu hút, video quảng cáo 30–60s cho TikTok / Reels / Shorts, ảnh sản phẩm & banner bằng AI — không cần chụp studio. Chạy quảng cáo nhỏ + SEO địa phương (Google Maps, Google Business).',
+    desc: 'Viết bài Facebook / Zalo, dựng video quảng cáo 30–60s TikTok / Reels / Shorts, ảnh sản phẩm & banner bằng AI — làm xong, bàn giao dùng được ngay. Kèm chạy quảng cáo nhỏ + SEO Google Maps / Google Business.',
     proof: 'Đã làm: video AI sản phẩm, creative ảnh AI, banner, kế hoạch chiến dịch Marketing',
   },
 ]
