@@ -86,4 +86,24 @@ export const projects = [
     tools: ['AI Video', 'Kịch bản AI', 'Âm thanh AI'],
     link: '#',
   },
+  {
+    id: 'p9',
+    title: 'Webapp quản lý sản xuất',
+    category: 'WEB',
+    image: '/assets/projects/p9-manufacturing.png',
+    description:
+      'Webapp quản lý cho doanh nghiệp sản xuất nhỏ: quản lý kho, công nợ, thu chi, sản xuất, in hóa đơn, dashboard thời gian thực và đăng nhập bảo mật. Xây bằng Node.js + SQLite.',
+    tools: ['Node.js', 'Express', 'SQLite'],
+    link: '#',
+  },
+  {
+    id: 'p10',
+    title: 'Bảng theo dõi tài chính Soyzi',
+    category: 'MARKETING',
+    image: '/assets/projects/p10-financial.svg',
+    description:
+      'Bảng theo dõi tài chính cho thương hiệu Soyzi: doanh thu, chi phí, lợi nhuận, ROI theo tháng, cơ cấu chi phí và sản phẩm bán chạy — tự động tính toán, dễ nhìn cho chủ doanh nghiệp nhỏ.',
+    tools: ['Excel', 'Google Sheets', 'Phân tích dữ liệu'],
+    link: '#',
+  },
 ]

@@ -2,9 +2,9 @@ import { useState } from 'react'
 import { site } from '../data/site.js'
 
 const heroStats = [
-  { value: '500M+', label: 'Doanh thu đỉnh' },
-  { value: '3–5', label: 'Đội ngũ kinh doanh' },
-  { value: '6', label: 'Dự án / tháng' },
+  { value: '10+', label: 'Web & webapp đã làm' },
+  { value: '4', label: 'Mảng dịch vụ buổi tối' },
+  { value: '500M+', label: 'Doanh thu đỉnh (kinh doanh)' },
 ]
 
 export default function Hero() {
@@ -21,9 +21,10 @@ export default function Hero() {
           <h1 className="hero__name">{site.name}</h1>
           <p className="hero__role">{site.role}</p>
           <p className="hero__summary">
-            Kinh nghiệm thực tế về sales &amp; kinh doanh trong lĩnh vực vật liệu xây dựng và bất
-            động sản — cùng kỹ năng thực tiễn về AI content, automation và web. Tìm kiếm cơ hội
-            part-time / buổi tối để tạo ra kết quả thực sự.
+            Làm việc buổi tối, nhận trọn phần <strong>công nghệ &amp; số liệu</strong> cho doanh
+            nghiệp nhỏ: website, webapp quản lý, sổ sách kế toán đơn giản và phân tích dữ liệu bán
+            hàng. Kinh nghiệm sales thực chiến (vật liệu xây dựng, bất động sản) giúp hiểu khách
+            hàng và chốt việc đúng trọng tâm.
           </p>
           <div className="hero__actions">
             <a href="#portfolio" className="btn btn--primary">
@@ -48,7 +49,7 @@ export default function Hero() {
 
         <div className="hero__visual is-visible">
           <div className="hero__photo-frame">
-            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Sales, Marketing & AI Content" className="hero__photo" />
+            <img src="/assets/profile.jpg" alt="Bùi Tuấn Dũng — Công nghệ, Sổ sách & Phân tích dữ liệu" className="hero__photo" />
           </div>
         </div>
       </div>

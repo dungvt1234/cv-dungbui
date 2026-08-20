@@ -14,8 +14,7 @@ export const experience = [
       'Đầu tư vào doanh nghiệp phân phối sơn & vật liệu xây dựng, trực tiếp phụ trách kinh doanh.',
       'Phân phối các thương hiệu lớn: Jotun, Dulux, Kansai.',
       'Doanh thu đỉnh ~500 triệu VND/tháng, quản lý đội 3–5 người.',
-      'Tư vấn, đàm phán và chốt đơn hàng với khách hàng.',
-      'Tìm kiếm, phát triển và chăm sóc khách hàng.',
+      'Tự quản lý sổ sách, dòng tiền và lợi nhuận cho doanh nghiệp — kinh nghiệm kế toán thực tế.',
     ],
   },
   {
@@ -24,12 +23,10 @@ export const experience = [
     period: '2022 – 2024',
     title: 'Nhân viên Kinh doanh Bất động sản',
     subtitle: 'Condotel & Căn hộ thương mại',
-    summary: 'Bán bất động sản phân khúc condotel và căn hộ thương mại.',
+    summary: 'Bán bất động sản phân khúc condotel và căn hộ thương mại — nền tảng kỹ năng tìm khách, tư vấn và chốt deal.',
     points: [
-      'Tư vấn và bán condotel, căn hộ thương mại.',
-      'Tìm kiếm khách hàng tiềm năng.',
-      'Đàm phán và chốt đơn hàng.',
-      'Chăm sóc khách hàng sau bán.',
+      'Tìm kiếm khách hàng tiềm năng, tư vấn và chốt đơn condotel, căn hộ thương mại.',
+      'Chăm sóc khách hàng sau bán — hiểu hành vi khách mua BĐS.',
     ],
   },
   {

@@ -3,7 +3,7 @@
 export const site = {
   name: 'Bùi Tuấn Dũng',
   brandName: 'DUNG BUI',
-  role: 'Sales | Marketing | AI Content & Automation',
+  role: 'Công nghệ • Sổ sách • Phân tích dữ liệu • Marketing AI',
   status: 'Sẵn sàng nhận việc Part-time / Buổi tối',
   phone: '0974 984 301',
   phoneHref: 'tel:+84974984301',
@@ -22,6 +22,7 @@ export const navLinks = [
   { label: 'Kinh nghiệm', href: '#experience' },
   { label: 'Kỹ năng', href: '#skills' },
   { label: 'AI & Marketing', href: '#ai-marketing' },
+  { label: 'Dịch vụ buổi tối', href: '#evening-services' },
   { label: 'Dự án', href: '#portfolio' },
   { label: 'Liên hệ', href: '#contact' },
 ]
