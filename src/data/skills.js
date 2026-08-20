@@ -2,6 +2,22 @@
 
 export const skillGroups = [
   {
+    id: 'technology',
+    title: 'Công nghệ',
+    icon: 'cpu',
+    skills: [
+      'Công cụ AI',
+      'AI Video',
+      'AI Image',
+      'AI Automation',
+      'AI Phân tích dữ liệu',
+      'Phát triển Web',
+      'Microsoft Word',
+      'Microsoft Excel',
+      'Microsoft PowerPoint',
+    ],
+  },
+  {
     id: 'sales',
     title: 'Sales',
     icon: 'handshake',
@@ -39,22 +55,6 @@ export const skillGroups = [
       'Thiết kế Banner',
       'Creative sản phẩm',
       'AI Marketing',
-    ],
-  },
-  {
-    id: 'technology',
-    title: 'Công nghệ',
-    icon: 'cpu',
-    skills: [
-      'Công cụ AI',
-      'AI Video',
-      'AI Image',
-      'AI Automation',
-      'AI Phân tích dữ liệu',
-      'Phát triển Web',
-      'Microsoft Word',
-      'Microsoft Excel',
-      'Microsoft PowerPoint',
     ],
   },
 ]
