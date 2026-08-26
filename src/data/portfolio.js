@@ -104,6 +104,6 @@ export const projects = [
     description:
       'Website trường mầm non Bình Minh (DAWN Kindergarten): giới thiệu trường, chương trình học (Montessori, STEAM…), dinh dưỡng, học phí, tuyển sinh, thư viện ảnh và FAQ. Thiết kế responsive, thân thiện với phụ huynh, tối ưu SEO.',
     tools: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://dawn-kindergarten.vercel.app',
+    link: 'https://binhminhkindergarten.site',
   },
 ]
