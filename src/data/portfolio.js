@@ -126,4 +126,14 @@ export const projects = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
   },
+  {
+    id: 'p14',
+    title: 'Hi Medical Spa — Lavender Glow',
+    category: 'WEB',
+    image: '/assets/projects/p14-medical-news.jpg',
+    description:
+      'Website spa medical luxury cho khách — Hi Medical (Lavender Glow). Giới thiệu dịch vụ spa, treatments, trải nghiệm, quy trình nghi thức, testimonial và gallery. Giao diện sang trọng tone lavender-gold, hiệu ứng motion graphics cao cấp (marquee, split-text 3D reveal, parallax), tối ưu conversion (Zalo, Messenger, hotline), hoàn toàn responsive.',
+    tools: ['Next.js', 'React', 'Tailwind CSS', 'GSAP'],
+    link: 'https://hi-medical-news-website.vercel.app',
+  },
 ]
