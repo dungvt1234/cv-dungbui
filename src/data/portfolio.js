@@ -106,4 +106,24 @@ export const projects = [
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: 'https://binhminhkindergarten.site',
   },
+  {
+    id: 'p11',
+    title: 'Website Verdant Estates (Bất động sản cao cấp)',
+    category: 'WEB',
+    image: '/assets/projects/p12-cinematic-estate.jpg',
+    description:
+      'Website demo bất động sản / biệt thự cao cấp cho khách — Verdant Estates. Giới thiệu bộ sưu tập bất động sản kiến trúc, triết lý thiết kế, dịch vụ tư vấn, testimonial và đặt lịch tham quan. Giao diện điện ảnh (cinematic), hiệu ứng mở phim intro, parallax, chuyển cảnh tinh tế, hoàn toàn responsive.',
+    tools: ['Next.js', 'React', 'Tailwind CSS', 'JavaScript'],
+    link: 'https://cinematic-estate.vercel.app',
+  },
+  {
+    id: 'p13',
+    title: 'Website Nội thất Mộc Không',
+    category: 'WEB',
+    image: '/assets/projects/p11-moc-khong.jpg',
+    description:
+      'Website demo nội thất cho khách — thương hiệu Mộc Không với gỗ tự nhiên và không gian sống như một tác phẩm. Bộ sưu tập, câu chuyện thương hiệu, ý tưởng thiết kế, dịch vụ tư vấn và đặt lịch. Giao diện hiện đại, sang trọng, hiệu ứng parallax và hoạt ảnh tinh tế, hoàn toàn responsive.',
+    tools: ['HTML', 'CSS', 'JavaScript'],
+    link: '#',
+  },
 ]
