@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useMemo, useState, useEffect } from 'react'
 import { portfolioCategories, projects } from '../data/portfolio.js'
 import { useReveal } from '../hooks/useReveal.js'
 
@@ -11,6 +11,18 @@ export default function Portfolio() {
     () => (filter === 'ALL' ? projects : projects.filter((p) => p.category === filter)),
     [filter]
   )
+
+  // Close modal on ESC
+  useEffect(() => {
+    if (!active) return
+    const onKey = (e) => { if (e.key === 'Escape') setActive(null) }
+    document.addEventListener('keydown', onKey)
+    document.body.style.overflow = 'hidden'
+    return () => {
+      document.removeEventListener('keydown', onKey)
+      document.body.style.overflow = ''
+    }
+  }, [active])
 
   const closeModal = () => setActive(null)
 
@@ -31,7 +43,7 @@ export default function Portfolio() {
               className={`filter-btn ${filter === cat ? 'is-active' : ''}`}
               onClick={() => setFilter(cat)}
             >
-              {cat}
+              {cat === 'ALL' ? 'TẤT CẢ' : cat}
             </button>
           ))}
         </div>
@@ -52,7 +64,7 @@ function ProjectCard({ project, onOpen }) {
   const { ref, visible } = useReveal()
 
   return (
-    <article className={`project-card ${visible ? 'is-visible' : ''}`} ref={ref} onClick={onOpen}>
+    <article className={`project-card ${project.featured ? 'project-card--featured' : ''} ${visible ? 'is-visible' : ''}`} ref={ref} onClick={onOpen}>
       <div className="project-card__media">
         <img
           src={project.image}
@@ -60,7 +72,10 @@ function ProjectCard({ project, onOpen }) {
           loading="lazy"
           className="project-card__img"
         />
-        <span className="project-card__tag">{project.category}</span>
+        <div className="project-card__tags">
+          <span className="project-card__tag">{project.category}</span>
+          {project.featured && <span className="project-card__featured">★ NỔI BẬT</span>}
+        </div>
         {project.video && (
           <span className="project-card__play">▶</span>
         )}
@@ -75,7 +90,7 @@ function ProjectCard({ project, onOpen }) {
             </span>
           ))}
         </div>
-        <span className="project-card__cta">Xem dự án →</span>
+        <span className="project-card__cta">Xem chi tiết &amp; demo →</span>
       </div>
     </article>
   )
@@ -106,9 +121,24 @@ function ProjectModal({ project, onClose }) {
           )}
         </div>
         <div className="modal__body">
-          <span className="modal__tag">{project.category}</span>
+          <div className="modal__tags">
+            <span className="modal__tag">{project.category}</span>
+            {project.featured && <span className="modal__featured">★ DỰ ÁN TIÊU BIỂU</span>}
+          </div>
           <h3 className="modal__title">{project.title}</h3>
           <p className="modal__desc">{project.description}</p>
+
+          {project.highlights && project.highlights.length > 0 && (
+            <div className="modal__highlights">
+              <h4 className="modal__highlights-title">Điểm nổi bật &amp; Kiến trúc kỹ thuật:</h4>
+              <ul className="modal__highlights-list">
+                {project.highlights.map((h, idx) => (
+                  <li key={idx}>{h}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="modal__tools">
             {project.tools.map((t) => (
               <span key={t} className="tool-chip">
@@ -116,11 +146,19 @@ function ProjectModal({ project, onClose }) {
               </span>
             ))}
           </div>
-          {project.link && project.link !== '#' && (
-            <a href={project.link} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">
-              Xem trực tiếp →
-            </a>
-          )}
+
+          <div className="modal__actions">
+            {project.link && project.link !== '#' && (
+              <a href={project.link} target="_blank" rel="noreferrer" className="btn btn--primary btn--sm">
+                Xem website trực tiếp →
+              </a>
+            )}
+            {project.github && (
+              <a href={project.github} target="_blank" rel="noreferrer" className="btn btn--ghost btn--sm modal__github-btn">
+                <span>Mã nguồn GitHub</span> ↗
+              </a>
+            )}
+          </div>
         </div>
       </div>
     </div>

@@ -2,8 +2,8 @@ const remoteServices = [
   {
     icon: '💻',
     title: 'Công nghệ',
-    desc: 'Website giới thiệu / bán hàng — bàn giao trong 1 tuần. Webapp quản lý: bán hàng (POS), kho, công nợ, sản xuất. SEO + Google: đưa web lên Google, khách tìm là thấy.',
-    proof: 'Đã làm: web Soyzi, web Fairy Luxury (+SEO), webapp quản lý sản xuất, POS F&B',
+    desc: 'Website giới thiệu / trường học / bán hàng tích hợp CMS quản trị nội dung độc lập (chi phí server 0đ) — bàn giao nhanh trong 1–2 tuần. Tối ưu SEO & chuẩn GEO (AI Search). Webapp quản lý bán hàng (POS), kho, công nợ, sản xuất.',
+    proof: 'Đã làm: Web Luxury Spa Hi Medical (himedicalskin.com), Web & Headless CMS Mầm non Bình Minh (binhminhkindergarten.site), web Soyzi, web Fairy Luxury (+SEO), webapp POS F&B',
   },
   {
     icon: '📒',

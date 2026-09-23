@@ -1,9 +1,46 @@
 // ===== Portfolio projects data =====
 // category: 'AI VIDEO' | 'AI IMAGE' | 'BANNER' | 'MARKETING' | 'WEB'
 
-export const portfolioCategories = ['TẤT CẢ', 'AI VIDEO', 'AI IMAGE', 'BANNER', 'MARKETING', 'WEB']
+export const portfolioCategories = ['ALL', 'WEB', 'AI VIDEO', 'AI IMAGE', 'BANNER', 'MARKETING']
 
 export const projects = [
+  {
+    id: 'p-dawn',
+    featured: true,
+    title: 'Hệ thống Website & Headless CMS — Mầm non Bình Minh (DAWN)',
+    category: 'WEB',
+    image: '/assets/projects/p10-kindergarten.jpg',
+    description:
+      'Hệ thống website trường mầm non xây dựng theo kiến trúc Jamstack hiện đại với 15+ trang chuyên sâu (Montessori, STEAM, Dinh dưỡng, Học phí, Tuyển sinh, FAQ). Tích hợp Decap CMS qua Cloudflare Workers OAuth giúp nhà trường tự đăng/sửa bài viết mà chi phí máy chủ 0đ/tháng. Tối ưu toàn diện SEO On-page, cấu trúc dữ liệu Schema.org và chuẩn GEO (Generative Engine Optimization với llms.txt) đón đầu các công cụ tìm kiếm AI.',
+    tools: ['Jamstack', 'Decap CMS', 'Cloudflare Workers', 'Tailwind CSS', 'SEO & GEO (llms.txt)'],
+    link: 'https://binhminhkindergarten.site',
+    github: 'https://github.com/dungvt1234/dawn-v6-demo',
+    highlights: [
+      'Kiến trúc Serverless Jamstack + Decap CMS: Nhà trường tự quản trị tin tức, chi phí duy trì hosting/server 0đ.',
+      'Cloudflare Workers OAuth: Xây dựng cổng xác thực riêng bảo mật cho ban quản trị qua GitHub OAuth.',
+      'Tiên phong chuẩn GEO (Generative Engine Optimization): Tích hợp llms.txt và Schema.org Preschool cho AI search engines (ChatGPT, Perplexity, Gemini).',
+      'Hiệu năng tối đa: Preload LCP hero, tối ưu font WOFF2, 100% ảnh chuẩn WebP, tải tức thì.',
+      'Quy chuẩn xuất bản 38-CHECK: Bộ tiêu chí kiểm duyệt nội dung khắt khe, không bịa fact, chuẩn cấu trúc SEO.'
+    ],
+  },
+  {
+    id: 'p-himedical',
+    featured: true,
+    title: 'Website Luxury Spa & Content Hub — Hi Medical Skincare',
+    category: 'WEB',
+    image: '/assets/projects/p-himedical.jpg',
+    description:
+      'Website thương hiệu cao cấp và Content Hub cho thẩm mỹ viện & spa chuẩn y khoa Hi Medical. Xây dựng trên nền tảng Next.js App Router với phong cách thiết kế Luxury Beauty (Cormorant Garamond + Manrope, tone tím lavender & ánh kim gold). Tích hợp trung tâm tin tức chuẩn SEO, chuyển đổi hiển thị Grid/List, marquee text động, chatbot tư vấn và tối ưu chuyển đổi đặt lịch hẹn.',
+    tools: ['Next.js', 'React', 'Tailwind CSS', 'Schema.org SEO', 'Luxury UI/UX'],
+    link: 'https://www.himedicalskin.com/journal',
+    highlights: [
+      'Kiến trúc Next.js App Router với React Server Components: Tốc độ tải trang siêu nhanh, tối ưu hóa công cụ tìm kiếm.',
+      'Thiết kế phong cách Luxury Beauty: Tông tím lavender & ánh kim gold, typography Cormorant Garamond quý phái.',
+      'Content Hub & SEO y khoa: Hệ thống bài viết chuyên sâu, thanh lọc danh mục, bộ chuyển đổi chế độ xem Grid / List linh hoạt.',
+      'Tối ưu chuyển đổi (CRO): Trợ lý ảo tư vấn nổi với bong bóng gợi ý, thanh marquee tin tức động và nút CTA đặt lịch hẹn cố định.',
+      'Dữ liệu có cấu trúc Schema.org: Khai báo HealthAndBeautyBusiness hoàn chỉnh hỗ trợ Local SEO Google Maps.'
+    ],
+  },
   {
     id: 'p1',
     title: 'Video quảng cáo sản phẩm bằng AI',
@@ -95,17 +132,6 @@ export const projects = [
       'Webapp quản lý cho doanh nghiệp sản xuất nhỏ: quản lý kho, công nợ, thu chi, sản xuất, in hóa đơn, dashboard thời gian thực và đăng nhập bảo mật. Xây bằng Node.js + SQLite.',
     tools: ['Node.js', 'Express', 'SQLite'],
     link: '#',
-  },
-  {
-    id: 'p10',
-    title: 'Website trường Mầm non Bình Minh (DAWN Kindergarten)',
-    category: 'WEB',
-    image: '/assets/projects/p10-kindergarten.jpg',
-    description:
-      'Website trường mầm non Bình Minh (DAWN Kindergarten): giới thiệu trường, chương trình học (Montessori, STEAM…), dinh dưỡng, học phí, tuyển sinh, thư viện ảnh và FAQ. Thiết kế responsive, thân thiện với phụ huynh, tối ưu SEO.',
-    tools: ['HTML', 'CSS', 'JavaScript'],
-    link: 'https://binhminhkindergarten.site',
-  },
   {
     id: 'p11',
     title: 'Website Verdant Estates (Bất động sản cao cấp)',
@@ -125,15 +151,5 @@ export const projects = [
       'Website demo nội thất cho khách — thương hiệu Mộc Không với gỗ tự nhiên và không gian sống như một tác phẩm. Bộ sưu tập, câu chuyện thương hiệu, ý tưởng thiết kế, dịch vụ tư vấn và đặt lịch. Giao diện hiện đại, sang trọng, hiệu ứng parallax và hoạt ảnh tinh tế, hoàn toàn responsive.',
     tools: ['HTML', 'CSS', 'JavaScript'],
     link: '#',
-  },
-  {
-    id: 'p14',
-    title: 'Hi Medical Spa — Lavender Glow',
-    category: 'WEB',
-    image: '/assets/projects/p14-medical-news.jpg',
-    description:
-      'Website spa medical luxury cho khách — Hi Medical (Lavender Glow). Giới thiệu dịch vụ spa, treatments, trải nghiệm, quy trình nghi thức, testimonial và gallery. Giao diện sang trọng tone lavender-gold, hiệu ứng motion graphics cao cấp (marquee, split-text 3D reveal, parallax), tối ưu conversion (Zalo, Messenger, hotline), hoàn toàn responsive.',
-    tools: ['Next.js', 'React', 'Tailwind CSS', 'GSAP'],
-    link: 'https://hi-medical-news-website.vercel.app',
   },
 ]

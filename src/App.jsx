@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import Navbar from './components/Navbar.jsx'
+import ScrollProgress from './components/ScrollProgress.jsx'
 import Hero from './components/Hero.jsx'
 import About from './components/About.jsx'
 import Experience from './components/Experience.jsx'
@@ -10,6 +11,7 @@ import RemoteServices from './components/RemoteServices.jsx'
 import Portfolio from './components/Portfolio.jsx'
 import Contact from './components/Contact.jsx'
 import Footer from './components/Footer.jsx'
+import BackToTop from './components/BackToTop.jsx'
 
 export default function App() {
   // Smooth scrolling cho anchor links
@@ -31,6 +33,7 @@ export default function App() {
 
   return (
     <div className="app">
+      <ScrollProgress />
       <Navbar />
       <main>
         <Hero />
@@ -44,6 +47,7 @@ export default function App() {
         <Contact />
       </main>
       <Footer />
+      <BackToTop />
     </div>
   )
 }

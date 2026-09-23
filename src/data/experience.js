@@ -3,6 +3,22 @@
 
 export const experience = [
   {
+    id: 'freelance-tech',
+    type: 'work',
+    period: '2023 – Nay',
+    title: 'Phát triển Web & Giải pháp Số (Freelance / Remote)',
+    subtitle: 'Jamstack • Headless CMS • Tự động hóa & SEO/GEO',
+    summary:
+      'Thiết kế và triển khai website, webapp và hệ sinh thái số cho trường học, cửa hàng và thương hiệu nhỏ. Tối ưu chi phí vận hành máy chủ về 0đ và chuẩn hóa SEO/GEO đón đầu tìm kiếm AI.',
+    points: [
+      'Phát triển website Luxury Spa & Content Hub cho Hi Medical (himedicalskin.com) bằng Next.js App Router, chuẩn SEO y khoa và tối ưu tỷ lệ chuyển đổi (CRO).',
+      'Xây dựng trọn gói website & Headless CMS cho Trường Mầm non Bình Minh (binhminhkindergarten.site) với Decap CMS, Cloudflare Workers OAuth bảo mật và chuẩn SEO/GEO.',
+      'Phát triển landing page và web thương hiệu: Soyzi (sữa chua tự nhiên cao cấp), Fairy Luxury.',
+      'Thiết kế và xây dựng webapp quản lý bán hàng (POS) và webapp quản lý sản xuất/kho bằng Node.js + SQLite.',
+      'Tư vấn và triển khai nội dung marketing, hình ảnh và video quảng cáo tạo bằng AI cho doanh nghiệp.',
+    ],
+  },
+  {
     id: 'business-investor',
     type: 'work',
     period: '2024 – Nay',
@@ -76,6 +92,7 @@ export const experience = [
 
 // Timeline mốc tổng hợp (hiển thị dọc theo thời gian)
 export const timeline = [
+  { period: '2023 – Nay', label: 'Phát triển Web & Giải pháp số (Freelance)', type: 'work' },
   { period: '2024 – Nay', label: 'Phân phối vật liệu xây dựng', type: 'work' },
   { period: '2022 – 2024', label: 'Kinh doanh Bất động sản', type: 'work' },
   { period: '2022', label: 'Khóa học lập trình FPT', type: 'course' },

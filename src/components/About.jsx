@@ -14,9 +14,9 @@ export default function About() {
               <span className="accent">lo phần công nghệ và số liệu</span>
             </h2>
             <p>
-              Tôi làm website, webapp quản lý, bảng sổ sách tài chính, phân tích dữ liệu bán hàng
-              và nội dung marketing bằng AI — phù hợp với quán, spa, homestay, cửa hàng và doanh
-              nghiệp nhỏ.
+              Tôi làm website Jamstack hiện đại (tích hợp CMS quản lý nội dung độc lập, chi phí server 0đ),
+              webapp quản lý bán hàng &amp; sản xuất, bảng sổ sách tài chính, phân tích dữ liệu và nội dung marketing bằng AI
+              — phù hợp với trường học, quán, spa, cửa hàng và doanh nghiệp nhỏ.
             </p>
             <p>
               Trước đây tôi từng trực tiếp kinh doanh vật liệu xây dựng &amp; sơn (Jotun, Dulux,
