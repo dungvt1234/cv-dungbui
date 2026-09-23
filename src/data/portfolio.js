@@ -132,6 +132,7 @@ export const projects = [
       'Webapp quản lý cho doanh nghiệp sản xuất nhỏ: quản lý kho, công nợ, thu chi, sản xuất, in hóa đơn, dashboard thời gian thực và đăng nhập bảo mật. Xây bằng Node.js + SQLite.',
     tools: ['Node.js', 'Express', 'SQLite'],
     link: '#',
+  },
   {
     id: 'p11',
     title: 'Website Verdant Estates (Bất động sản cao cấp)',
