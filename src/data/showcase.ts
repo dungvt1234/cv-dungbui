@@ -120,9 +120,6 @@ export const explorations = [
 ];
 
 export const stats = [
-  { value: "20+", label: "Years Experience" },
-  { value: "95+", label: "Projects Done" },
-  { value: "200%", label: "Satisfied Clients" },
   { value: "10+", label: "Web & webapp đã làm" },
   { value: "12+", label: "Dự án đã triển khai" },
   { value: "500M+", label: "Doanh thu đỉnh / tháng" },

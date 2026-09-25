@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;600;700;800;900&display=swap");
 @import "tailwindcss";
 @plugin "tailwindcss-animate";
 
@@ -140,6 +141,193 @@ body {
 }
 .animate-fade-rise-delay-2 {
   animation: fade-rise 0.8s ease-out 0.4s both;
+}
+
+/* Hero kiểu Jack */
+.font-kanit {
+  font-family: "Kanit", sans-serif;
+}
+
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Icon bay quanh ảnh hero */
+@keyframes orbit-float {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-12px);
+  }
+}
+
+.animate-orbit-float {
+  animation: orbit-float 3.2s ease-in-out infinite;
+}
+
+/* Hiệu ứng đêm Trung Thu */
+@keyframes lantern-float {
+  0% {
+    transform: translateY(0) translateX(0) rotate(-4deg);
+    opacity: 0;
+  }
+  12% {
+    opacity: 0.95;
+  }
+  50% {
+    transform: translateY(-46vh) translateX(3vw) rotate(4deg);
+  }
+  88% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: translateY(-105vh) translateX(-2vw) rotate(-3deg);
+    opacity: 0;
+  }
+}
+
+.lantern {
+  position: absolute;
+  bottom: -8vh;
+  z-index: 1;
+  border-radius: 50% / 58%;
+  background: radial-gradient(circle at 50% 38%, #fff3cf 0%, #ffd98a 32%, #f59a3e 66%, #b4501a 100%);
+  box-shadow:
+    0 0 18px 6px rgba(255, 170, 80, 0.55),
+    0 0 60px 18px rgba(255, 140, 50, 0.25);
+  animation: lantern-float linear infinite;
+  pointer-events: none;
+}
+
+.lantern::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  width: 2px;
+  height: 26px;
+  background: rgba(255, 200, 130, 0.8);
+  transform: translateX(-50%);
+}
+
+@keyframes star-twinkle {
+  0%,
+  100% {
+    opacity: 0.15;
+    transform: scale(0.8);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.15);
+  }
+}
+
+.star {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background: #fff6dd;
+  box-shadow: 0 0 8px 2px rgba(255, 240, 200, 0.5);
+  animation: star-twinkle ease-in-out infinite;
+  pointer-events: none;
+}
+
+@keyframes shooting {
+  0% {
+    transform: translate3d(0, 0, 0) rotate(-28deg) scaleX(0);
+    opacity: 0;
+  }
+  6% {
+    opacity: 1;
+    transform: translate3d(-6vw, 4vh, 0) rotate(-28deg) scaleX(1);
+  }
+  18% {
+    opacity: 0;
+    transform: translate3d(-26vw, 17vh, 0) rotate(-28deg) scaleX(1.4);
+  }
+  100% {
+    opacity: 0;
+    transform: translate3d(-26vw, 17vh, 0) rotate(-28deg) scaleX(1.4);
+  }
+}
+
+.shooting-star {
+  position: absolute;
+  z-index: 1;
+  top: 12%;
+  right: 8%;
+  width: 130px;
+  height: 2px;
+  border-radius: 2px;
+  background: linear-gradient(90deg, rgba(255, 246, 220, 0), #fff6dc);
+  animation: shooting 9s ease-out infinite;
+  pointer-events: none;
+}
+
+@keyframes firefly-drift {
+  0%,
+  100% {
+    transform: translate(0, 0);
+    opacity: 0.2;
+  }
+  25% {
+    opacity: 1;
+  }
+  50% {
+    transform: translate(2.5vw, -3vh);
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 1;
+  }
+}
+
+.firefly {
+  position: absolute;
+  z-index: 1;
+  border-radius: 50%;
+  background: #ffe08a;
+  box-shadow: 0 0 10px 3px rgba(255, 210, 110, 0.55);
+  animation: firefly-drift ease-in-out infinite;
+  pointer-events: none;
+}
+
+.hero-vignette {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background: radial-gradient(ellipse at center, transparent 55%, rgba(5, 3, 14, 0.55) 100%);
+  pointer-events: none;
+}
+
+.hero-grain {
+  position: absolute;
+  inset: -40px;
+  z-index: 1;
+  opacity: 0.07;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 0.6s steps(3) infinite;
+  pointer-events: none;
+}
+
+@keyframes grain-shift {
+  0% {
+    transform: translate(0, 0);
+  }
+  33% {
+    transform: translate(-14px, 10px);
+  }
+  66% {
+    transform: translate(12px, -12px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 /* Hero nổi bật trên nền video */

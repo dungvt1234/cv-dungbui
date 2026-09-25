@@ -3,7 +3,9 @@ import { Button } from "./ui/button";
 
 const LINKS = [
   { label: "Home", target: "#home" },
+  { label: "About", target: "#about" },
   { label: "Work", target: "#work" },
+  { label: "Services", target: "#services" },
   { label: "Resume", target: "#resume" },
 ];
 

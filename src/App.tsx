@@ -9,6 +9,10 @@ import Journal from "./components/Journal";
 import Explorations from "./components/Explorations";
 import Resume from "./components/Resume";
 import Stats from "./components/Stats";
+import JackMarquee from "./components/JackMarquee";
+import JackAbout from "./components/JackAbout";
+import JackServices from "./components/JackServices";
+import JackProjects from "./components/JackProjects";
 import Footer from "./components/Footer";
 import WorkArchive from "./components/WorkArchive";
 
@@ -22,7 +26,7 @@ function ScrollToTop() {
 
 function Landing({ onNavChange }: { onNavChange: (id: string) => void }) {
   useEffect(() => {
-    const ids = ["#home", "#work", "#resume", "#contact"];
+    const ids = ["#home", "#about", "#work", "#services", "#resume", "#contact"];
     const observer = new IntersectionObserver(
       (entries) => {
         for (const e of entries) {
@@ -41,11 +45,15 @@ function Landing({ onNavChange }: { onNavChange: (id: string) => void }) {
   return (
     <main>
       <Hero />
+      <JackAbout />
       <Works />
       <Journal />
       <Explorations />
       <Resume />
       <Stats />
+      <JackMarquee />
+      <JackServices />
+      <JackProjects />
     </main>
   );
 }
