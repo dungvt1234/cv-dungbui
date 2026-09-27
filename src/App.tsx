@@ -12,7 +12,6 @@ import Stats from "./components/Stats";
 import JackMarquee from "./components/JackMarquee";
 import JackAbout from "./components/JackAbout";
 import JackServices from "./components/JackServices";
-import JackProjects from "./components/JackProjects";
 import Footer from "./components/Footer";
 import WorkArchive from "./components/WorkArchive";
 
@@ -53,7 +52,6 @@ function Landing({ onNavChange }: { onNavChange: (id: string) => void }) {
       <Stats />
       <JackMarquee />
       <JackServices />
-      <JackProjects />
     </main>
   );
 }

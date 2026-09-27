@@ -14,14 +14,24 @@ export default function Footer() {
     const video = videoRef.current;
     if (!video) return;
     let hls: Hls | null = null;
+    const hideOnError = () => {
+      video.style.display = "none";
+    };
     if (Hls.isSupported()) {
       hls = new Hls();
+      hls.on(Hls.Events.ERROR, (_e, data) => {
+        if (data.fatal) hideOnError();
+      });
       hls.loadSource(HLS_URL);
       hls.attachMedia(video);
     } else if (video.canPlayType("application/vnd.apple.mpegurl")) {
       video.src = HLS_URL;
     }
-    return () => hls?.destroy();
+    video.addEventListener("error", hideOnError);
+    return () => {
+      hls?.destroy();
+      video.removeEventListener("error", hideOnError);
+    };
   }, []);
 
   useEffect(() => {
@@ -32,13 +42,13 @@ export default function Footer() {
   }, []);
 
   return (
-    <footer id="contact" className="relative bg-bg pt-16 md:pt-20 pb-8 md:pb-12 overflow-hidden">
+    <footer id="contact" className="relative z-20 bg-bg pt-16 md:pt-20 pb-8 md:pb-12 overflow-hidden">
       <div className="absolute inset-0 overflow-hidden">
         <video ref={videoRef} autoPlay muted loop playsInline className="w-full h-full object-cover scale-y-[-1]" />
         <div className="absolute inset-0 bg-black/60" />
       </div>
 
-      <div ref={marqueeRef} className="relative overflow-hidden whitespace-nowrap mb-12">
+      <div ref={marqueeRef} className="relative overflow-hidden whitespace-nowrap mb-12" aria-hidden="true">
         <div className="marquee-inner inline-block font-display italic text-5xl md:text-7xl text-text-primary/90">
           {MARQUEE.repeat(10)}
           {MARQUEE.repeat(10)}
@@ -57,7 +67,7 @@ export default function Footer() {
         </p>
         <a
           href={`mailto:${hero.email}`}
-          className="group relative inline-block rounded-full text-base px-9 py-4 bg-text-primary text-bg hover:scale-105 transition-transform"
+          className="group relative inline-block rounded-full text-sm sm:text-base px-6 sm:px-9 py-4 bg-text-primary text-bg hover:scale-105 transition-transform max-w-full break-all"
         >
           <span className="absolute rounded-full accent-gradient opacity-0 group-hover:opacity-100 transition-opacity" style={{ inset: "-2px", zIndex: -1 }} />
           {hero.email}
@@ -72,11 +82,20 @@ export default function Footer() {
 
       <div className="relative max-w-[1200px] mx-auto px-6 md:px-10 flex flex-col md:flex-row items-center justify-between gap-4 border-t border-stroke pt-6">
         <Reveal className="flex flex-wrap justify-center gap-5">
-          {socials.map((s) => (
-            <a key={s.label} href={s.href} target="_blank" rel="noreferrer" className="text-sm text-muted hover:text-text-primary transition-colors">
-              {s.label}
-            </a>
-          ))}
+          {socials.map((s) => {
+            const isEmail = s.href.startsWith("mailto:");
+            return (
+              <a
+                key={s.label}
+                href={s.href}
+                target={isEmail ? undefined : "_blank"}
+                rel="noreferrer"
+                className="text-sm text-muted hover:text-text-primary transition-colors"
+              >
+                {s.label}
+              </a>
+            );
+          })}
         </Reveal>
         <p className="flex items-center gap-2 text-sm text-muted">
           <span className="relative flex h-2.5 w-2.5">
