@@ -6,12 +6,12 @@ import Magnet from "./Magnet";
 import ContactButton from "./ContactButton";
 
 const ORBITERS = [
-  { icon: Brain, label: "AI", cls: "left-[-72px] sm:left-[-96px] top-[8%]", delay: "0s" },
-  { icon: Palette, label: "Design", cls: "right-[-72px] sm:right-[-96px] top-[20%]", delay: "0.8s" },
-  { icon: LineChart, label: "Tài chính", cls: "left-[-84px] sm:left-[-112px] top-[46%]", delay: "1.6s" },
-  { icon: Code2, label: "Web", cls: "right-[-84px] sm:right-[-112px] top-[52%]", delay: "0.4s" },
-  { icon: Database, label: "Data", cls: "left-[-60px] sm:left-[-80px] bottom-[10%]", delay: "1.2s" },
-  { icon: Megaphone, label: "Marketing", cls: "right-[-60px] sm:right-[-80px] bottom-[16%]", delay: "2s" },
+  { icon: Brain, label: "AI", cls: "left-[-46px] sm:left-[-96px] top-[6%]", delay: "0s" },
+  { icon: Palette, label: "Design", cls: "right-[-46px] sm:right-[-96px] top-[20%]", delay: "0.8s" },
+  { icon: LineChart, label: "Tài chính", cls: "left-[-52px] sm:left-[-112px] top-[44%]", delay: "1.6s" },
+  { icon: Code2, label: "Web", cls: "right-[-50px] sm:right-[-112px] top-[54%]", delay: "0.4s" },
+  { icon: Database, label: "Data", cls: "left-[-44px] sm:left-[-80px] bottom-[8%]", delay: "1.2s" },
+  { icon: Megaphone, label: "Marketing", cls: "right-[-40px] sm:right-[-80px] bottom-[16%]", delay: "2s" },
 ];
 
 const VIDEO_SRC =
@@ -50,7 +50,7 @@ export default function Hero() {
               {ORBITERS.map((o) => (
                 <span
                   key={o.label}
-                  className={`absolute ${o.cls} hidden sm:inline-flex items-center gap-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-xs px-3 py-2 whitespace-nowrap animate-orbit-float`}
+                  className={`absolute ${o.cls} inline-flex items-center gap-1 sm:gap-1.5 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-white text-[10px] sm:text-xs px-2 sm:px-3 py-1 sm:py-2 whitespace-nowrap animate-orbit-float`}
                   style={{ animationDelay: o.delay }}
                 >
                   <o.icon size={14} aria-hidden="true" />
