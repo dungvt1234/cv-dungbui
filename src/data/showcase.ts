@@ -8,22 +8,16 @@ export const hero = {
   name: "Bùi Tuấn Dũng",
   rolePrefix: "Nhận trọn phần",
   roleSuffix: ".",
-  roles: [
-    "Công nghệ & Web",
-    "Sổ sách & Kế toán",
-    "Phân tích dữ liệu",
-    "Marketing AI",
-    "Sales thực chiến",
-  ],
+  roles: ["Website & Webapp", "AI Automation", "Giải pháp số"],
   description:
     "Designing seamless digital interactions by focusing on the unique nuances which bring systems to life.",
   summaryVi:
-    "Làm việc remote, nhận trọn phần công nghệ & số liệu cho doanh nghiệp nhỏ: website, webapp quản lý, sổ sách kế toán và phân tích dữ liệu bán hàng.",
+    "Tôi kết hợp kinh nghiệm kinh doanh thực tế với phát triển website, webapp và ứng dụng AI để giải quyết bài toán vận hành. Sẵn sàng cộng tác dự án freelance và cơ hội Web / AI Automation phù hợp.",
   email: "buituandung1405@gmail.com",
   phone: "0974 984 301",
   phoneHref: "tel:+84974984301",
   location: "Việt Nam",
-  status: "Sẵn sàng nhận việc part-time / remote",
+  status: "Open to freelance projects & technology opportunities",
   cvFile: "/Bui-Tuan-Dung-CV.pdf",
 };
 
@@ -120,15 +114,12 @@ export const explorations = [
 ];
 
 export const stats = [
-  { value: "10+", label: "Web & webapp đã làm" },
-  { value: "12+", label: "Dự án đã triển khai" },
-  { value: "500M+", label: "Doanh thu đỉnh / tháng" },
+  { value: "Web", label: "Website & ứng dụng" },
+  { value: "AI", label: "Automation & tích hợp" },
+  { value: "Sales", label: "Kinh nghiệm kinh doanh" },
 ];
 
 export const socials = [
-  { label: "Twitter", href: "https://x.com/" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/" },
-  { label: "Dribbble", href: "https://dribbble.com/" },
   { label: "GitHub", href: "https://github.com/dungvt1234" },
   { label: "Facebook", href: "https://www.facebook.com/share/1HWnsgxDx7/?mibextid=wwXIfr" },
   { label: "Email", href: "mailto:buituandung1405@gmail.com" },
