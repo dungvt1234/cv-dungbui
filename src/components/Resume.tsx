@@ -13,8 +13,10 @@ export default function Resume() {
           title="Kinh nghiệm"
           italic="& kỹ năng"
           sub={hero.summaryVi}
-          action={{ label: "Tải CV PDF", href: hero.cvFile }}
+          
         />
+
+        <a href={hero.cvFile} download className="inline-flex mb-8 rounded-full border border-stroke px-5 py-3 text-sm text-text-primary hover:bg-surface focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2" aria-label="Tải CV PDF">Tải CV PDF ↓</a>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-5 md:gap-6 mb-5 md:mb-6">
           {experience.slice(0, 4).map((e, i) => (
