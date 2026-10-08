@@ -11,12 +11,12 @@ export default function LoadingScreen({ onComplete }: { onComplete: () => void }
     let raf = 0;
     const start = performance.now();
     const tick = (now: number) => {
-      const p = Math.min(1, (now - start) / 2700);
+      const p = Math.min(1, (now - start) / 700);
       setCount(Math.floor(p * 100));
       if (p < 1) {
         raf = requestAnimationFrame(tick);
       } else {
-        setTimeout(onComplete, 400);
+        onComplete();
       }
     };
     raf = requestAnimationFrame(tick);
