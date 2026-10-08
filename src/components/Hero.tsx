@@ -27,14 +27,16 @@ export default function Hero() {
   return (
     <section id="home" className="font-kanit relative h-screen flex flex-col" style={{ overflowX: "clip", background: "#0C0C0C" }}>
       <video
-        className="absolute inset-0 w-full h-full object-cover"
+        className="absolute inset-0 w-full h-full object-cover motion-reduce:hidden"
         src={VIDEO_SRC}
         autoPlay
         loop
+        preload="none"
         muted
         playsInline
         aria-hidden="true"
       />
+      <div className="absolute inset-0 bg-[#0c0c0c] -z-10" />
       <div className="absolute inset-0 bg-black/55" aria-hidden="true" />
       <div className="flex-1" />
 
@@ -68,7 +70,7 @@ export default function Hero() {
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: "clamp(0.75rem, 1.4vw, 1.5rem)" }}
           >
-            Nhận trọn phần{" "}
+            AI Solutions Builder —{" "}
             <span key={roleIndex} className="animate-role-fade-in inline-block">
               {hero.roles[roleIndex]}
             </span>
