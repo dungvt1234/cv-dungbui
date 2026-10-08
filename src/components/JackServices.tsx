@@ -2,29 +2,16 @@ import FadeIn from "./FadeIn";
 
 const SERVICES = [
   {
-    name: "Phát triển Web",
-    description:
-      "Website Jamstack, Next.js và Headless CMS cho trường học, spa và thương hiệu — nhanh, chuẩn SEO/GEO, chi phí vận hành 0đ.",
-  },
-  {
-    name: "AI Video & Image",
-    description:
-      "Video quảng cáo, ảnh sản phẩm studio và content TikTok/Reels sản xuất bằng AI — nhanh, rẻ, không cần buổi chụp thực tế.",
-  },
-  {
-    name: "Marketing & Content",
-    description:
-      "Kế hoạch chiến dịch, banner và nội dung mạng xã hội đúng insight khách hàng nhờ kinh nghiệm sales thực chiến.",
-  },
-  {
-    name: "Sổ sách & Dữ liệu",
-    description:
-      "Sổ sách kế toán, quản lý kho công nợ và phân tích dữ liệu bán hàng cho doanh nghiệp nhỏ — chính xác, có hệ thống.",
+    name: "Website & Landing Page",
+    description: "Thiết kế và phát triển website giới thiệu doanh nghiệp, tối ưu trải nghiệm mobile, nội dung và SEO kỹ thuật cơ bản.",
   },
   {
     name: "Webapp quản lý",
-    description:
-      "Webapp POS bán hàng, quản lý kho và sản xuất bằng Node.js + SQLite — thao tác nhanh, phù hợp quán F&B và xưởng nhỏ.",
+    description: "Xây dựng MVP theo quy trình thực tế: bán hàng, nhập xuất kho, quản lý dữ liệu và dashboard. Phạm vi và bảo mật được xác nhận trước khi triển khai.",
+  },
+  {
+    name: "AI & Workflow Automation",
+    description: "Khảo sát và thử nghiệm quy trình tự động hóa lead, báo cáo, phân loại dữ liệu và tích hợp API; có kiểm tra đầu ra và phương án xử lý lỗi.",
   },
 ];
 
