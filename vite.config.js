@@ -8,6 +8,15 @@ export default defineConfig({
   build: {
     outDir: 'dist',
     assetsInlineLimit: 4096,
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          'vendor-react': ['react', 'react-dom', 'react-router-dom'],
+          'vendor-motion': ['framer-motion', 'gsap'],
+          'vendor-media': ['hls.js'],
+        },
+      },
+    },
   },
   server: {
     port: 5173,
